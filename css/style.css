@@ -6,18 +6,19 @@ html, body {
 }
 
 .contents {
-	display: flex;
-	display: -webkit-flex;
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	
+	display: block;
+	width: 360px;
+	height: 360px;
 }
 
 
 .content_text {
+	line-height: 360px;
 	font-weight:bold;
-	font-size:5em;
+	font-size:2em;
 	color:#fff;
+	text-align: center;
+	
 }
 img{
 	width: 360px;
